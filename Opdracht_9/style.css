@@ -1,0 +1,45 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  text-align: center;
+}
+
+header {
+  font-size: 9px;
+}
+
+.centertext {
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.border {
+  border: 3px solid lightseagreen;
+  margin: 20px;
+  padding: 10px;
+}
+
+.horinav {
+  padding: 0;
+}
+
+.horinav li {
+  display: inline;
+  margin: 5px;
+}
+
+.borderpic {
+  border: solid lightseagreen;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: khaki;
+    color: pink;
+    font-size: smaller;
+    line-height: 3rem;
+  }
+}
